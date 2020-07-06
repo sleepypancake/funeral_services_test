@@ -1,0 +1,23 @@
+.wrapper{
+  position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu{
+  width: 48px;
+  overflow-y: auto;
+}
+
+.side-menu{
+  width: 224px;
+  overflow-y: auto;
+}
+
+.main-info{
+  width: calc(100vw - 272px);
+  overflow-y: auto;
+}
